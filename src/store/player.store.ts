@@ -22,7 +22,7 @@ export function setPlayer({
   password: string;
 }) {
   // Check if password is correct
-  if (password !== "6969") {
+  if (password !== "utf$2026") {
     return { success: false };
   }
   // Check if player already exists
